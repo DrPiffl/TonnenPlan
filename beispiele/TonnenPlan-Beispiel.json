@@ -1,0 +1,272 @@
+[
+    {
+        "uid": "99082c3644ac839d33048a48deeb1a14",
+        "date": "2026-01-06",
+        "type": "plastic",
+        "interval": null
+    },
+    {
+        "uid": "ab0e73cc02bd129fa6d905e8dac8b52d",
+        "date": "2026-01-07",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "98db56e5728658e7b58cc3365bcd5fc0",
+        "date": "2026-01-07",
+        "type": "residual",
+        "interval": 28
+    },
+    {
+        "uid": "e0dd00513212c7d2fce3caf4400f393e",
+        "date": "2026-01-14",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "780bcb9989e794c3ca855cf4f73bd4b2",
+        "date": "2026-01-21",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "4cf2870edd2cd55ee7d1017a15b0d6fd",
+        "date": "2026-01-27",
+        "type": "paper",
+        "interval": null
+    },
+    {
+        "uid": "b09d5f4a513ca96641e2a2bddb2e600d",
+        "date": "2026-01-28",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "45d591481c9b1b968a383d767c035f1c",
+        "date": "2026-02-03",
+        "type": "plastic",
+        "interval": null
+    },
+    {
+        "uid": "846095e4fe7592d10d382fb9be09c2fa",
+        "date": "2026-02-04",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "dc19e52d73d90afa53db396e290ac454",
+        "date": "2026-02-04",
+        "type": "residual",
+        "interval": 28
+    },
+    {
+        "uid": "723563438a6526568d1bbac84b35e749",
+        "date": "2026-02-11",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "1e0a7fd1ce957cb5987d1a2f11147f7f",
+        "date": "2026-02-18",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "549bfe54a66ff1010fa5b2b96d0d4362",
+        "date": "2026-02-24",
+        "type": "paper",
+        "interval": null
+    },
+    {
+        "uid": "d0b951ad77e2bfadc31fd163d685e84a",
+        "date": "2026-02-25",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "96eae7ed2d5ff57f92f152eb71224f86",
+        "date": "2026-03-03",
+        "type": "plastic",
+        "interval": null
+    },
+    {
+        "uid": "bed8f1f731727f942b94ff052206ea90",
+        "date": "2026-03-04",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "69dab95a5673a69f280ad557abe05461",
+        "date": "2026-03-04",
+        "type": "residual",
+        "interval": 28
+    },
+    {
+        "uid": "75738b8cfcd9290aba0c20989646914f",
+        "date": "2026-03-11",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "be8b0beb82aca2f21f3f7248748d2851",
+        "date": "2026-03-18",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "873aa7ff1ca9722761bded427ab21fde",
+        "date": "2026-03-24",
+        "type": "paper",
+        "interval": null
+    },
+    {
+        "uid": "47436e07c2500612e09e33fcf5d4468b",
+        "date": "2026-03-25",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "a7e81bc951773668f52892559ddcb2ee",
+        "date": "2026-03-30",
+        "type": "plastic",
+        "interval": null
+    },
+    {
+        "uid": "52119d2be59036a6593f793978a21b3f",
+        "date": "2026-03-31",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "484a1758db85bef24582471c08184afd",
+        "date": "2026-03-31",
+        "type": "residual",
+        "interval": 28
+    },
+    {
+        "uid": "66b9d344489f56eeca50fd78acc4a191",
+        "date": "2026-04-09",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "009e0b67bfd530b51f5034511ce66310",
+        "date": "2026-04-15",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "6751e1bbb59a497c369b36066bfd7023",
+        "date": "2026-04-21",
+        "type": "paper",
+        "interval": null
+    },
+    {
+        "uid": "1192f9a24ee6e4787ed2a09a6ee91453",
+        "date": "2026-04-22",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "d0752a7aa68a00c6745ee65e40e8bd1f",
+        "date": "2026-04-27",
+        "type": "plastic",
+        "interval": null
+    },
+    {
+        "uid": "52fff0b626b1ce456206a97acc728293",
+        "date": "2026-04-28",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "d90c8eedaec59ae4a211968e8e14254d",
+        "date": "2026-04-28",
+        "type": "residual",
+        "interval": 28
+    },
+    {
+        "uid": "98d544f1497ebf9be970876855bad6a1",
+        "date": "2026-05-06",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "5f03debff38c23f03fc2881df5ee80e8",
+        "date": "2026-05-13",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "9c4a7ebd6dea314353e9cf2e9599a7e2",
+        "date": "2026-05-19",
+        "type": "paper",
+        "interval": null
+    },
+    {
+        "uid": "43a46d44bb26986c70d933ab25dd02d9",
+        "date": "2026-05-20",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "b0d3108dba1b6e566ba2d43e35a1f40b",
+        "date": "2026-05-27",
+        "type": "plastic",
+        "interval": null
+    },
+    {
+        "uid": "88448c78623008434bd9d6633530e057",
+        "date": "2026-05-28",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "c8bce8810812761a5cc9391b6d880702",
+        "date": "2026-05-28",
+        "type": "residual",
+        "interval": 28
+    },
+    {
+        "uid": "c9f4eab9214f6641ac4ab573a049d4b7",
+        "date": "2026-06-03",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "79db09a58499cc00a83b78b91ac2fd0c",
+        "date": "2026-06-10",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "b9c71af35103f2b86bdd4e1f1ce57478",
+        "date": "2026-06-16",
+        "type": "paper",
+        "interval": null
+    },
+    {
+        "uid": "10341550038ab2ec30c0491a448c79a5",
+        "date": "2026-06-17",
+        "type": "organic",
+        "interval": null
+    },
+    {
+        "uid": "11251bf2f1c055bf7eb1025b452b133c",
+        "date": "2026-06-23",
+        "type": "plastic",
+        "interval": null
+    },
+    {
+        "uid": "d93b6a967ef8962dd91e48176777642d",
+        "date": "2026-06-24",
+        "type": "residual",
+        "interval": null
+    },
+    {
+        "uid": "0f3b04174bfdb899671e8237cdeaa6ce",
+        "date": "2026-06-24",
+        "type": "residual",
+        "interval": 28
+    },
+]

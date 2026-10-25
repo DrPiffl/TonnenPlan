@@ -1,0 +1,34 @@
+# TonnenPlan in Home Assistant über die Integration "Waste Collection Schedule"
+# https://github.com/mampfes/hacs_waste_collection_schedule (Installation über HACS)
+#
+# DEIN_EXPORT_TOKEN durch den Export-Token aus den Konto-Einstellungen auf
+# https://tonnenplan.app ersetzen.
+
+waste_collection_schedule:
+  sources:
+    - name: ics
+      args:
+        url: "https://tonnenplan.app/export/ics/DEIN_EXPORT_TOKEN"
+      customize:
+        - type: Restmüll
+          icon: mdi:trash-can
+        - type: Biomüll
+          icon: mdi:leaf
+        - type: Verpackungsmüll
+          icon: mdi:recycle
+        - type: Altpapier
+          icon: mdi:package-variant
+        - type: Altglas
+          icon: mdi:bottle-wine
+        - type: Altkleider
+          icon: mdi:tshirt-crew
+        - type: Sperrmüll
+          icon: mdi:sofa
+        - type: Schadstoffe
+          icon: mdi:biohazard
+
+sensor:
+  - platform: waste_collection_schedule
+    name: Nächste Abfuhr
+    details_format: upcoming
+    value_template: "{{ value.types | join(', ') }} in {{ value.daysTo }} Tagen"

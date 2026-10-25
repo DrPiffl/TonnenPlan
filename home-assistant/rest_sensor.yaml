@@ -1,0 +1,33 @@
+# TonnenPlan in Home Assistant ohne Zusatzintegration, über den JSON-Export
+# und die eingebaute RESTful-Integration.
+#
+# DEIN_EXPORT_TOKEN durch den Export-Token aus den Konto-Einstellungen auf
+# https://tonnenplan.app ersetzen. Der Export enthält nur Termine ab heute,
+# sortiert nach Datum; der erste Eintrag ist also die nächste Abfuhr.
+
+rest:
+  - resource: "https://tonnenplan.app/export/json/DEIN_EXPORT_TOKEN"
+    scan_interval: 21600 # alle 6 Stunden reicht völlig
+    sensor:
+      - name: "Nächste Abfuhr Datum"
+        unique_id: tonnenplan_naechste_abfuhr_datum
+        device_class: date
+        value_template: "{{ value_json[0].date if value_json | count > 0 else none }}"
+
+      - name: "Nächste Abfuhr Art"
+        unique_id: tonnenplan_naechste_abfuhr_art
+        value_template: >
+          {% set namen = {
+            'residual': 'Restmüll', 'organic': 'Biomüll', 'plastic': 'Verpackungsmüll',
+            'paper': 'Altpapier', 'glass': 'Altglas', 'clothing': 'Altkleider',
+            'bulky': 'Sperrmüll', 'harmful': 'Schadstoffe'
+          } %}
+          {% if value_json | count > 0 %}
+            {% set ns = namespace(arten=[]) %}
+            {% for termin in value_json | selectattr('date', 'eq', value_json[0].date) %}
+              {% set ns.arten = ns.arten + [namen.get(termin.type, termin.type)] %}
+            {% endfor %}
+            {{ ns.arten | unique | join(', ') }}
+          {% else %}
+            unbekannt
+          {% endif %}
